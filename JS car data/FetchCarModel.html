@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive.css" />
+  <link rel="shortcut icon" href="Assets/Favicon.png" type="image/x-icon" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+  <title>Car-Rent</title>
+  <!-- ---------JQuery--------- -->
+  <script src="Plugins/jquery.min.js"></script>
+  <!-- ----------JQuery Scrollup Plugin------------- -->
+  <script src="Plugins/jquery.scrollUp.min.js"></script>
+</head>
+
+<body>
+
+  <!-- --------------Select Car----------------- -->
+  <div id="pick-section">
+    <div class="pick-container">
+      <div class="pick-title">
+        <h3>Vehicle Models</h3>
+        <h1>Our rental fleet</h1>
+        <p>
+          Choose from a variety of our amazing vehicles to rent for your
+          next adventure or business trip
+        </p>
+      </div>
+      <div class="car-content">
+        <div class="pick-box">
+          <button id="btn6" onclick="item6()">Tesla Model S</button>
+          <button id="btn1" onclick="item1()">Audi A1 S-Line</button>
+          <button id="btn2" onclick="item2()">VW Golf 6</button>
+          <button id="btn3" onclick="item3()">Toyota Camry</button>
+          <button id="btn4" onclick="item4()">BMW 320 ModernLine</button>
+          <button id="btn5" onclick="item5()">Mercedes-Benz GLK</button>
+          <button id="btn7" onclick="item7()">VW Passat CC</button>
+        </div>
+        <div class="car-box">
+          <img src="Assets/car1.jpg" alt="" id="car-img" />
+          <div class="pick-description">
+            
+            <div class="pick">
+              <div class="pick-price"><span>$45 /</span> rent per day</div>
+            </div>
+
+            <div class="pick-table">
+              <span id="model">Model</span>
+              <span id="name">Audi</span>
+            </div>
+            <div class="pick-table">
+              <span id="mark">Mark</span>
+              <span id="markNo">A1</span>
+            </div>
+            <div class="pick-table">
+              <span id="year">Year</span>
+              <span id="yearNo">2021</span>
+            </div>
+            <div class="pick-table">
+              <span id="door">Doors</span>
+              <span id="doorNo">4/5</span>
+            </div>
+            <div class="pick-table">
+              <span id="ac">AC</span>
+              <span id="acYes">Yes</span>
+            </div>
+            <div class="pick-table">
+              <span id="tran">Transmission</span>
+              <span id="tranManual">Manual</span>
+            </div>
+            <div class="pick-table">
+              <span id="fuel">Fuel</span>
+              <span id="fuelDis">Gasoline</span>
+            </div>
+            <a href="#" class="car-btn">RESERVE NOW</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>

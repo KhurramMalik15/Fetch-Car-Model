@@ -1,0 +1,331 @@
+nav i {
+    display: none;
+}
+
+@media only screen and (max-width: 1300px) {
+    #header nav {
+        padding: 2vw 2vw;
+    }
+
+    .header-text {
+        margin-top: 8%;
+        margin-left: 2%;
+    }
+
+    #header {
+        background-size: 53%;
+
+    }
+
+    #bg-img {
+        width: 62%;
+        right: 0%;
+    }
+    .booking-form {
+        width: 90%;
+    }
+    .pick-container{
+        width: 100%;
+    }
+    .testimonial-text p{
+        width: 70%;
+    }
+    .all-testimonial{
+        padding: 30px 0px;
+    }
+    .testimonial-container{
+        padding: 0px 0px;
+    }
+    .download-container{
+        width: 100%;
+       
+    }
+    footer{
+        padding: 100px 0;
+    }
+    .footer-container{
+        width: 100%;
+    }
+    .form-box {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    
+    .pick-container{
+        width: 100%;
+    }
+    .pick-title{
+        width: 100%;
+    }
+    .car-content{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .pick-box{
+        width: 100%;
+    }
+    .pick-box button{
+        width: 100%;
+    }
+    .car-box{
+        width: 100%;
+    }
+    .car-box img{
+        width: 60%;
+    }
+    #testimonial-section{
+        padding: 100px 2vw;
+    }
+    .footer-container{
+        display: block;
+        justify-content: space-between;
+    }
+    .footer-content-box{
+        width: 100%;
+    }
+    .f-content{
+        width: 100%;
+        height: 260px;
+        min-height: auto;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #header {
+        background-size: 70%;
+    }
+
+    nav i {
+        font-size: 25px;
+        display: block;
+        font-weight: 800;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-links a {
+        display: block;
+        margin: 10px;
+        font-size: 22px;
+    }
+
+    .nav-links {
+        background: #fff;
+        position: fixed;
+        top: 0;
+        left: -200%;
+        width: 100%;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: left 0.5s;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    .ri-close-large-line {
+        position: absolute;
+        right: 40px;
+        top: 40px;
+        cursor: pointer;
+    }
+
+    .header-text {
+        margin-top: 10%;
+    }
+
+    #bg-img {
+        top: 20%;
+    }
+    .plan-box{
+        flex-wrap: wrap;
+    }
+    .inner-box{
+        width: 325px;
+    }
+    .choose-text{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+        gap: 30px;
+    }
+    .choose-text-left{
+        max-width: 100%;
+        min-width: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .choose-text-left h4{
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 7px;
+    }
+    .choose-text-left h1{
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .choose-text-left p{
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 33px;
+    }
+    .choose-text-left a{
+       margin: 0 auto;
+    }
+    .right-text-box{
+        text-align: center;
+    }
+    .testimonial-text p{
+        width: 80%;
+    }
+    .all-testimonial{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    #header {
+        background-image: none;
+    }
+
+    #bg-img {
+        display: none;
+    }
+
+    .header-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .form-box {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 20px;
+    }
+
+    .container {
+        margin-top: 150px;
+    }
+    .plan-box{
+        justify-content: center;
+    }
+    .inner-box{
+        display: block;
+        width: 100%;
+    }
+    .car-box{
+        width: 100%;
+        flex-direction: column;
+    }
+    .car-box img{
+        width: 90%;
+        height: 400px;
+        display: block;
+    }
+    .testimonial-text p{
+        width: 100%;
+    }
+    #download-section{
+        background-image: none;
+    }
+    .download-text{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .download-btn{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header-text h1 {
+        width: 90%;
+    }
+    .pick-title h3{
+        font-size: 20px;
+    }
+    .pick-title h1{
+        font-size: 36px;
+    }
+    .pick-title p{
+        width: 90%;
+    }
+    .car-box img{
+        width: 100%;
+        height: 350px;
+    }
+    .choose-text-left h1{
+        width: 90%;
+    }
+    .choose-text-left p{
+        width: 90%;
+    }
+    .choose-text-right{
+        max-width: 100%;
+    }
+    .choose-text-right-box{
+        flex-direction: column;
+    }
+    .right-text-box{
+        width: 100%;
+    }
+    #testimonial-section{
+        margin-top: 200px;
+    }
+    .footer-content-box{
+        display: block;
+    }
+    .f-content{
+        text-align: center;
+    }
+    .footer-content-1 p{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .header-btn {
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 250px;
+        justify-content: center;
+    }
+
+    .booking-form {
+        padding: 50px 20px;
+    }
+
+    .container {
+        margin-top: 0px;
+    }
+    .car-box img{
+        width: 100%;
+        height: 250px;
+    }
+    .testimonial-box-name svg{
+        display: none;
+    }
+    .all-testimonial-box{
+        padding: 55px 25px;
+    }
+}
